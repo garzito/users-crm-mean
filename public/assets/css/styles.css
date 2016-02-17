@@ -1,0 +1,28 @@
+main {
+  padding-top: 30px;
+}
+
+/* HEADER
+====================*/
+header .navbar {
+  border-radius: 0;
+}
+
+/* ANIMATIONS
+====================*/
+.spinner {
+  animation: spin 1s infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* NGANIMATE
+===================*/
+
+/* show and hide */
+.show-hide-message.ng-hide-remove {
+  animation: zoomIn 0.3 both ease;
+}
